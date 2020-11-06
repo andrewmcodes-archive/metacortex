@@ -1,0 +1,28 @@
+{
+  "name": "@andrewmcodes/browserslist-config",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Shareable browserslist configuration for @andrewmcodes.",
+  "keywords": [
+    "andrewmcodes",
+    "browserslist"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "@andrewmcodes:registry": "https://registry.npmjs.org"
+  },
+  "author": "andrewmcodes Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmcodes/metacortex.git",
+    "directory": "packages/browserslist-config"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewmcodes/metacortex/issues"
+  },
+  "homepage": "https://github.com/andrewmcodes/metacortex/blob/main/packages/browserslist-config/README.md",
+  "devDependencies": {
+    "browserslist": "^4.3.4"
+  }
+}

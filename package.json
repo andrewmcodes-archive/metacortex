@@ -1,0 +1,29 @@
+{
+  "name": "metacortex",
+  "author": "Andrew Mason <andrewmcodes@protonmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint:changelogs": "node scripts/lint-changelogs.js",
+    "check": "lerna run check",
+    "generate": "plop",
+    "release": "yarn lint:changelogs && lerna publish",
+    "release-beta": "lerna publish --dist-tag beta",
+    "generate:package": "plop package && yarn plop docs",
+    "tophat": "tophat"
+  },
+  "devDependencies": {
+    "@shopify/tophat": "^0.0.4",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6",
+    "jest": "^25.2.0",
+    "lerna": "^2.11.0",
+    "plop": "^2.6.0",
+    "prettier": "^2.0.5",
+    "watchpack": "^1.6.1"
+  }
+}
