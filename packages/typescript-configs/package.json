@@ -1,6 +1,6 @@
 {
   "name": "@andrewmcodes/typescript-configs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "A set of typescript configuration files that can be extended.",
   "author": "Andrew Mason <andrewmcodes@protonmail.com>",
